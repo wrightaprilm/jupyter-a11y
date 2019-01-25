@@ -1,0 +1,21 @@
+Type: Jupyter Notebook Extension
+Compatibility: 4.x, 5.x
+Name: Jupyter A11y
+Main: nbreader.js
+Description: "Allows notebook to be read out loud"
+Link: readme.md
+Icon: icon.png
+Parameters:
+
+- name: jupyter-a11y.read
+  description: Read current cell
+  input_type: Shift-R
+
+- name: jupyter-a11y.cancel
+  description: Stop reading
+  input_type: Shift-ESC
+
+- name: jupyter-a11y.skip
+  description: Skip line
+  input_type: Shift-S
+
