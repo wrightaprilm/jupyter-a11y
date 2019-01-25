@@ -8,14 +8,17 @@ Icon: icon.png
 Parameters:
 
 - name: jupyter-a11y.read
-  description: Read current cell
-  input_type: Shift-R
+  description: Hotkey to read current cell
+  input_type: hotkey
+  default: Alt-Shift-R
 
 - name: jupyter-a11y.cancel
-  description: Stop reading
-  input_type: Shift-ESC
+  description: Hotkey to stop reading
+  input_type: hotkey
+  default: Alt-Shift-E
 
 - name: jupyter-a11y.skip
-  description: Skip line
-  input_type: Shift-S
+  description: Hotkey to skip line
+  input_type: hotkey
+  default: Alt-Shift-S
 
